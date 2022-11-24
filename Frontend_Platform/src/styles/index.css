@@ -1,0 +1,62 @@
+/* Tailwind CSS file should be imported to App.js/Index.js. Import order matters as it will override other styles depending on order. 
+Currently, it should be imported near top. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+
+*,
+a,
+body,
+html,
+h1,
+tr,
+th,
+td {
+    font-family: "Mukta", sans-serif;
+}
+
+/* Custom standardized Tailwind classes instead of hardcoding every Tailwind class */
+@layer components {
+    .page-title {
+        @apply text-4xl text-black font-mukta
+    }
+
+    .charts-graphs-tables-container {
+        @apply flex flex-col gap-10 h-full
+    }
+
+    .table-widget {
+        @apply flex flex-col bg-white rounded drop-shadow-md p-5 h-full
+    }
+}
+
+/* Change the white to any color */
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px rgb(146, 154, 177) inset !important;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background: rgb(194, 194, 194); 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    cursor: pointer;
+    background: rgb(177, 177, 177); 
+  }

@@ -1,0 +1,14 @@
+.download {
+  display: flex;
+  width: auto;
+  background-color: white;
+  border-radius: 6px;
+  padding: 3px;
+  color: black;
+  transition: 0.5s;
+}
+
+.download:hover {
+  background-color: rgb(227, 233, 255);
+  cursor: pointer;
+}

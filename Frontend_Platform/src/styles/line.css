@@ -1,0 +1,46 @@
+#grid-3{ 
+    grid-area: elecLine;
+    margin-right: 10px;
+}
+#grid-4{ grid-area: gasLine;}
+.historical-data{
+    padding: 1vh;
+}
+.elements{
+    display: grid;
+    grid-template-areas:
+    'elecLine gasLine';
+    gap: 10px;
+    margin-top: 1vh;
+}
+
+.preset-zoom {
+    display:flex;
+    margin-right: 1vw;
+}
+.custom-zoom{
+    display: inline-flex;
+    height: fit-content;
+    margin-right: 1vw;
+}
+
+.date-label{
+    color: black;
+    margin: 5px 10px;
+    padding-bottom: 0;
+}
+
+.zoom-line{
+    display: flex;
+    margin: 2vh 0;
+    justify-content: flex-end;
+
+}
+button{
+    background-color: #1058fff8;
+    border: none;
+    border-radius: 5px;
+    margin-right: 2px;
+    width: 4vw;
+    color: white;
+}

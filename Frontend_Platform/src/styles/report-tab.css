@@ -1,0 +1,31 @@
+/* @tailwind base; */
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Mukta&display=swap");
+
+.tabs, 
+p,
+h2 {
+  font-family: "Mukta", sans-serif;
+}
+
+.tabs {
+  @apply text-center text-[#0D6EFD] text-lg grow; 
+  @apply border-2 border-transparent border-b-[#dee2e6] ;
+  @apply hover:border-x-2 hover:border-t-2 hover:border-x-[#dee2e6] hover:border-t-[#dee2e6];
+  @apply px-2 py-2 ;
+  @apply cursor-pointer;
+}
+
+.active-tab  {
+  @apply text-[#495057] bg-white;
+  @apply border-2 border-[#dee2e6] border-b-transparent;
+}
+
+.content {
+  @apply hidden bg-white p-5
+}
+
+.active-content {
+  @apply block; 
+}

@@ -1,0 +1,36 @@
+#navbar {
+    display: flex;
+    background-color: #333;
+    font-family: 'Poppins', sans-serif;
+    box-shadow:  inset 0px 0px 10px #000000;
+    height: 8vh;
+    padding-right: 60px;
+}
+
+.whiteText {
+    color: white;
+}
+
+#navLinks {
+    display: flex;
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    justify-content: space-around;
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#profileOptions {
+    display: flex;
+    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    justify-content: right;
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,101 @@
+#reset-nav {
+    cursor: default;
+}
+
+h4.title-msg{
+    margin: 0 3vw;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: normal;
+    text-align: justify;
+}
+
+form.form-forgot {
+    margin: 0.5rem;
+}
+
+.submit-container{
+    width: 100%;
+}
+
+.btn-animate-1 {
+    margin: 2vh 0;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 13px;
+    text-align: center;
+    color: rgba(255,255,255, 1);
+    width: 100%;
+    height: 35px;
+    border-radius: 20px;
+    background-color: rgba(16,89,255, 1);
+    transition: all .5s ease, top .5s ease .5s, height .5s ease .5s, background-color .5s ease .75s;
+}
+
+.form-forgot {
+    display: inline;
+    justify-content: center;
+    width: 65%;
+}
+
+.form-forgot input{
+    color: white
+}
+
+.frame-forgot{
+    display: inline;
+    justify-content:center;
+    width: 25%;
+    margin-top: 2rem;
+    height: flex;
+}
+
+.TopBarContainer{
+    padding: 1.5rem;
+    color: #e0e0e0
+}
+
+.backIcon:hover{
+    cursor: pointer;
+    color: #ffffff;
+    transition: ease, 0.5s
+}
+
+.ResentFrame{
+    font-size: 15px;
+    text-align:center;
+    color: #e0e0e0;
+}
+
+.loginButtons {
+    min-width: 12rem;
+    min-height: 1.5rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: #e4e3e3cc;
+    background: #3f52ff;
+    background: linear-gradient(90deg, #5471f7 0%, #3f52ff 100%);
+    border: none;
+    box-shadow: 0.2rem 0.2rem 0.4rem #1e37a5;
+    transition: all 0.3s ease-in-out 0s;
+    cursor: pointer;
+    position: relative;
+    }
+  
+  .loginButtons:hover, .loginButtons:focus {
+    color: #ffffff;
+    transform: translateY(-3px);
+  }
+  
+  .loginButtons:hover::before, .loginButtons:focus::before {
+    opacity: 1;
+  }
+  
+  .loginButtons:hover::after, .loginButtons:focus::after {
+    animation: none;
+    display: none;
+  }

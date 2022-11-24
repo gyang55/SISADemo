@@ -1,0 +1,125 @@
+body {
+    font-family: sans-serif, Roboto, Arial;
+}
+
+.hamburger-icon {
+    font-size: 3em;
+    color: black;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #ced4da;
+    overflow: hidden;
+    height: 70px;
+    margin-top: 40vh;
+    left: 0;
+    width: fit-content;
+    position: fixed;
+}
+
+.hamburger-icon:hover,
+.navbar:hover {
+    background-color: black;
+    color: white;
+    transition: 0.2s;
+}
+
+.sidebar-menu {
+    background-color: #ffffff;
+    opacity: 1;
+    padding-top: 25px;
+    transition: 0.5s;
+}
+
+.sidebar-menu a {
+    padding: 10px 10px 10px 30px;
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+    display: flex;
+    transition: 0.6s;
+    align-items: center;
+}
+
+.sidebar-menu a:hover {
+    color: #fff;
+    background-color: black;
+}
+
+.sidebar-menu .btn-close {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 50%;
+}
+
+.sidebar-menu .logout-btn {
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}
+
+img.logo-portfolio {
+    width: 15vw;
+    position: fixed;
+    z-index: 1;
+}
+
+.profile {
+    margin-bottom: 4vh;
+    text-align: center;
+}
+
+.profile-image {
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    background: #03045e;
+    font-size: 35px;
+    color: #fff;
+    /*line-height: 150px;*/
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1vh;
+}
+
+.test {
+    background-color: #03045e;
+}
+
+.navItemComponent{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.7s;
+    text-transform: capitalize;
+    font-size: 16px;
+    display: flex;
+}
+
+.navItemComponent:hover{
+    background: rgb(206, 219, 238);
+}
+
+.navItemComponent.active{
+    background: #3639e4;
+    color: rgb(255,255,255)
+}
+
+.navItemComponentNoTier{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.7s;
+    text-transform: capitalize;
+    font-size: 16px;
+    display: flex;
+    pointer-events: none;
+    color:rgb(167, 167, 167)
+}

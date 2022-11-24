@@ -1,0 +1,155 @@
+body {
+    background-color: #f3f6fd;
+}
+
+#dashboard {
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row;
+}
+
+/* .main-cont{
+    height: 92vh;
+    width: 83vw;
+    margin-left: 15vw;
+    margin-top: 4vh;
+} */
+
+.dashButton {
+    width: 33%;
+    height: 13vh;
+    margin-right: 1vw;
+    display: flex;
+    align-items: center;
+    border-radius: 2vw;
+    color: white;
+    background-color: #03045e;
+    /*border-color: #ad4501;
+    border-style: solid;
+    border-bottom: 5px;*/
+}
+
+#port-btn {
+    background-color: #279be4;
+}
+
+#solution-btn {
+    background-color: #88d4ab;
+}
+#news-btn {
+    background-color: #ed254e;
+}
+
+svg.bi.bi-clipboard-data,
+svg.bi.bi-lightbulb,
+svg.bi.bi-newspaper {
+    opacity: 0.8;
+}
+
+.btn-title {
+    display: block;
+    margin-left: 2vw;
+}
+
+#grid-1 {
+    grid-area: elecPie;
+}
+#grid-2 {
+    grid-area: gasPie;
+}
+
+#grid-5 {
+    grid-area: table;
+}
+
+#breakdowns {
+    display: grid;
+    grid-template-areas: "elecPie gasPie";
+    gap: 10px;
+    /* padding: 1vh; */
+}
+
+.title {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+}
+
+h1.margin {
+    color: black;
+}
+
+.widget {
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    /* float: left; */
+    /* width: 40vw; */
+    /* margin: auto; */
+}
+
+.widget-header {
+    background: #112b4e;
+    border-left: 0.25px solid #ddd;
+    border-right: 0.25px solid #ddd;
+    border-bottom: 0.25px solid #ddd;
+    padding: 0.5vh 1vw 1vh 1vh;
+}
+
+.widget-header h2 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 11px 15px;
+    color: #f9f9f9;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.widget-header-expanded {
+    background: #6d6d6d;
+    border-left: 0.25px solid #ddd;
+    border-right: 0.25px solid #ddd;
+    border-bottom: 0.25px solid #ddd;
+    padding: 0.5vh 1vw 1vh 1vh;
+}
+
+.widget-header-expanded h2 {
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 0;
+    padding: 11px 15px;
+    color: #f9f9f9;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.empty {
+    height: 5vh;
+}
+
+.widget-container {
+    width: fit-content;
+    margin-bottom: 3vh;
+}
+.tab-icon {
+    background-color: #bbb;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1vw;
+}
+
+.float-container {
+    width: 81.5vw;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+}

@@ -1,0 +1,187 @@
+#portfolio {
+  /* border-collapse: collapse; */
+
+  /* margin-bottom: 3vh;
+    width: 81.5vw;
+    margin-left: 0.5vw; */
+}
+
+#portfolio-plus td,
+#portfolio-plus th {
+  border-left: 0.25px solid #ddd;
+  border-right: 0.25px solid #ddd;
+  padding: 0.5vh 1vw 1vh 1vh;
+}
+
+
+#portfolio-plus tr:nth-child(1) {
+  border-top: 0.125px solid #ddd;
+}
+
+#portfolio-plus tr:nth-child(2) {
+  border-top: 0.125px solid #ddd;
+}
+
+#portfolio-plus tr:nth-child(4n) {
+  background-color: #f2f2f2;
+  border-top: 0.125px solid #ddd;
+}
+
+#portfolio-plus tr:nth-child(4n+2) {
+  border-top: 0.125px solid #ddd;
+}
+
+#portfolio-plus tbody:nth-last-child(1) {
+  border-bottom: 0.125px solid #ddd;
+}
+
+
+#portfolio-plus tr:hover {
+  background-color: #ddd;
+}
+
+#portfolio-plus th:hover {
+  background-color: navy;
+  cursor: default;
+}
+
+#portfolio-plus th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2359a1;
+  color: white;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+
+#portfolio-plus > tr:hover {
+  background: #fcf3d0;
+}
+
+.total-row {
+  background: lightcyan;
+  font-weight: bold;
+}
+
+#portfolio-plus span:hover {
+  cursor: pointer;
+}
+
+.table-title {
+  cursor: auto;
+  background-color: #112b4e !important;
+}
+
+#expanded-ecm td,
+#expanded-ecm th {
+  border-left: 0.25px solid #ddd;
+  border-right: 0.25px solid #ddd;
+  border-bottom: 0.25px solid #ddd;
+  padding: 0.5vh 1vw 1vh 1vh;
+}
+
+#expanded-ecm tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#expanded-ecm tr:hover {
+  background-color: #ddd;
+}
+
+#expanded-ecm th:hover {
+  background-color: rgb(180, 180, 180);
+  cursor: default;
+}
+
+#expanded-ecm th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #838383;
+  color: white;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+
+#expanded-ecm > tr:hover {
+  background: #fcf3d0;
+}
+
+#expanded-ecm span:hover {
+  cursor: pointer;
+}
+#table-decal-signs{
+  transition-duration: 0.4s;
+}
+#table-decal-signs:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#active-decal{
+  color:rgb(32, 81, 216);
+  transition-duration: 0.4s;
+}
+
+#active-decal:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+#expanded-ecm tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+#expanded-ecm tr:nth-child(even):hover {
+  background-color: #f2f2f2;
+  background: #fcf3d0;
+}
+
+#expanded-column{
+  padding: 0;
+}
+
+#portfolio td,
+#portfolio th {
+  border-left: 0.25px solid #ddd;
+  border-right: 0.25px solid #ddd;
+  border-bottom: 0.125px solid #ddd;
+  padding: 0.5vh 1vw 1vh 1vh;
+}
+
+#portfolio tr:nth-child(2n) {
+  background-color: #f2f2f2;
+}
+
+
+#portfolio tr:hover {
+  background-color: #ddd;
+}
+
+#portfolio th:hover {
+  background-color: navy;
+  cursor: default;
+}
+
+#portfolio th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #2359a1;
+  color: white;
+  text-transform: capitalize;
+  font-weight: lighter;
+}
+
+#portfolio > tr:hover {
+  background: #fcf3d0;
+}
+
+.total-row {
+  background: lightcyan;
+  font-weight: bold;
+}
+
+#portfolio span:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,140 @@
+
+.Tabs {
+    background: #ffffff;
+    color: #020405;
+    width: 20%;
+    border-radius: 0.5rem;
+    margin-bottom: 20px;
+    box-shadow: 0.5px 0.25px 1px 1px #b1b0b04d;
+    float: right;
+   }
+   ul.nav{
+       display: inline-block;
+       display: table;
+        padding-bottom: 18px;
+   }
+
+   ul.nav li{
+       margin:0;
+       padding: 0;
+   }
+
+  ul.nav div li{
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.7s;
+    display: inline-block;
+  }
+  ul.nav div li:hover {
+    background: rgb(206, 219, 238);
+  }
+  ul.nav div li.active {
+    background: #03045e;
+    color: rgb(255,255,255)
+  }
+
+  ul.nav div li{
+    text-transform: capitalize;
+    font-size: 16px;
+    display: flex;
+  }
+
+  .editButton p {
+    background-color: #03045e;
+    inline-size: 130px;
+    padding-left: 1rem;
+  }
+
+  .editButton p li{
+    color: #ffffff;
+    text-transform: capitalize;
+  }
+
+  .tabContent {
+    margin-top: 1rem;
+  }
+
+  .tabContent p {
+    margin-left: 1rem;
+    padding: 0.5rem;
+    color:#7a7979;
+  }
+  
+
+  h2 {
+    font-size: 21px;
+    font-weight: bold;
+    color:#636363;
+  }
+
+  
+
+  .tabContainer {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  #backgroundBanner {
+    background: #03045e; 
+    overflow:auto;
+  }
+
+  #backgroundBanner p{
+    color: #ffffff;
+    font-size: 34px;
+    padding: 3rem 5rem 1rem;
+  }
+
+  #backgroundBanner a{
+    background: #03045e;
+    margin-bottom: 1rem;
+    margin-right: 1.5rem;
+    color: #ffffff;
+    text-decoration: underline;
+    font-size: 12px;
+    float: right;
+  }
+
+  #editProfileButton {
+    margin-top: 10rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 0.5rem;
+    float:right;
+  }
+
+  #navButtonDisguised div:nth-child(2){
+    margin-top: 8rem;
+    margin-bottom: 0.5rem;
+    float: right;
+    text-align: center;
+    justify-content: center;
+    border-radius: 3rem;
+    background-color: #03045e;
+    color: #ffffff;
+    padding: 1rem;
+    width: 60%;
+    text-transform: capitalize;
+    opacity: 1;
+    transition: 0.4s;
+  }
+
+  #navButtonDisguised div:nth-child(2):hover{
+    opacity: 0.8;
+    cursor:pointer;
+  }
+
+  .textFieldContainer {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .textFieldContainer span {
+    font-weight: bold;
+    font-size: 16px;
+    color: #636363;
+  }
